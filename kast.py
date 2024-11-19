@@ -30,4 +30,4 @@ while True:
     else: 
         print("ange nya värden.")
 
-#grader=45 och hastighet = 15.67
+#grader=40 och hastighet = 15.8
