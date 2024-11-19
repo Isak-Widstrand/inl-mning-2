@@ -2,15 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 while True:
+    grader = input("Ange grader: ")
+    grader = float(grader)
+    V0 = input("Ange utgångshastigheten: ")
     plt.figure(figsize=(5, 4))
     plt.ion()
     plt.xlabel("Längd (m)")
     plt.ylabel("Höjd (m)")
     plt.title("Kastparabel")
     plt.grid(True)
-    grader = input("Ange grader: ")
-    grader = float(grader)
-    V0 = input("Ange utgångshastigheten: ")
     V0 = float(V0)
     g = 9.81
     alfa = np.radians(grader)
@@ -28,4 +28,6 @@ while True:
     if bra == "ja":
         break
     else: 
-        print("ange nya värden: ")
+        print("ange nya värden.")
+
+#grader=45 och hastighet = 15.67
